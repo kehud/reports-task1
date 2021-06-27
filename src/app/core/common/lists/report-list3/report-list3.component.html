@@ -1,0 +1,15 @@
+<p>Report 3</p>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>#ID</th>
+        <th>Report Name</th>
+        <th>Description</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let reportItem3 of reportRecords" app-report-item3 [reportItem3] = 'reportItem3'>
+      </tr>
+    </tbody>
+  </table>
